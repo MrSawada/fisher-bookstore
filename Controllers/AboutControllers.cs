@@ -14,20 +14,20 @@ namespace Fisher.Bookstore.Controllers
         
         public IActionResult About()
         {
-            return Content("About hello world");
+            return View();
         }
         
         [Route("About/history")]
 
         public IActionResult AboutHistory()
         {
-            return Content("HISTORY hello world");
+            return View();
         }
         [Route("About/location")]
 
         public IActionResult AboutLocation()
         {
-            return Content("Location hello world");
+            return View();
         }
     }
 }

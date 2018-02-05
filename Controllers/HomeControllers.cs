@@ -7,11 +7,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Fisher.Bookstore.Controllers
 {
-    public class IndexController : Controller
+    public class HomeController : Controller
     {
         public IActionResult Index()
         {
-            return Content("INDEX hello world");
+            return View();
         }
     }
 }
